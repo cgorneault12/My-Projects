@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no"
+    <title>My First Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <h1 id="title">This Is My Page!!!</h1>
+    <p id="description">I hope i can complete this on my own!?!?</p>
+  <form id="survey-form">
+  <fieldset>
+    <legend>Personal Information</legend>
+        <label id="name-label">Full Name</label>
+        <input id="name" type="text" required placeholder="John Doe"><br>
+        <label id="email-label">Email Address</label>
+        <input id="email" type="email" required placeholder="johndoe@server.com"><br>
+        <label id="number-label">Phone Number</label>
+        <input id="number" type="number" min="7" max="12" placeholder="123-456-7890">
+  </fieldset>
+
+
+  <fieldset>
+    <legend>What is your Favorite type of Coding?</legend>
+    <input type="radio" id="html" name="favlang" value="HTML" checked>
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="favlang" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="favlang" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+  </fieldset>
+
+
+    <fieldset>
+      <legend>Favorite Sports Car?</legend>
+      <input type="checkbox" id="car1" name="car1" value="Bike" checked>
+      <label for="car1"> Lamborghini</label><br>
+      <input type="checkbox" id="car2" name="car2" value="Car">
+      <label for="car2"> Ferrari</label><br>
+      <input type="checkbox" id="car3" name="car3" value="Boat">
+      <label for="car3"> Konesseigg</label><br><br>
+  </fieldset>
+
+
+  <fieldset>
+    <textarea name="message" rows="10" cols="30">Who do you want to be your next president and why?</textarea><br>
+    </fieldset>
+      <fieldset>
+    <legend>Select your favorite number and submit the form</Legend>
+    <select id="dropdown" name="dropdown">
+      <option value="select-one">Select One</option>
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="five">5</option>
+      <option value="six">6</option>
+      <option value="seven">7</option>
+      <option value="eight">8</option>
+      <option value="nine">9</option>
+      <option value="ten">10</option><br>
+<input type="submit" id="submit">
+  </form>
+</html>
